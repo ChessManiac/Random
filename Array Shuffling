@@ -1,0 +1,24 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main8 {
+	public static void main (String [] args) {
+		
+		
+		double[] myList = {1, 2, 3, 4};
+
+        for (int i = 0; i < myList.length; i++) {
+            // Generate an index j randomly
+            int j = (int)(Math.random() * myList.length);
+            // Swap myList[i] with myList[j]
+            double temp = myList[i];
+            myList[i] = myList[j];
+            myList[j] = temp;
+        }
+        
+        System.out.println(Arrays.toString(myList));
+		
+		
+	}
+}
+
