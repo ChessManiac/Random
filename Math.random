@@ -1,0 +1,7 @@
+//Math.random();  Equivalent    [0,1)
+
+//Math.random() * 8;    Equivalent     [0,8) 
+
+//Math.random() + 2;  Equivalent     [2,3)
+
+//11 + Math.random() * 3;   Equivalent     [11,14) 
