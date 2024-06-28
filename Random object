@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main8 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Random random = new Random();
+		
+		int x = random.nextInt(6) + 1; // 1 - 6
+		
+		//double y = random.nextDouble(); 0.0 - 1.0 non-inclusive
+		
+		//boolean z = random.nextBoolean(); //True or false
+		
+		System.out.println(x);
+	}
+
+}
